@@ -185,8 +185,6 @@
 /system/etc/firmware/default.acdb
 /system/etc/firmware/yamato_pfp.fw
 /system/etc/firmware/yamato_pm4.fw
-/system/etc/init.d/placeholder
-/system/etc/iproute2
 /system/etc/iproute2/rt_tables
 /system/etc/iqprofile.pro
 /system/etc/mm_property.conf
@@ -203,9 +201,6 @@
 /system/etc/vomeComp.cfg
 /system/etc/vomeCore.cfg
 /system/etc/vomeplay.cfg
-/system/etc/wimax
-/system/etc/wimax/dhcp
 /system/etc/wimax/dhcp/wimaxDhcp.conf
-/system/etc/wimax/sequansd
 /system/etc/wimax/sequansd/DefaultTree.xml
 /system/etc/wimax/sequansd/sequansd_app.xml
