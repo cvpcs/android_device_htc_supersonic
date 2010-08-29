@@ -80,11 +80,11 @@
     <CamcorderProfiles>
 
         <EncoderProfile quality="high" fileFormat="mp4" duration="60">
-            <Video codec="m4v"
-                   bitRate="6000000"
-                   width="1280"
-                   height="720"
-                   frameRate="30" />
+            <Video codec="h264"
+                   bitRate="3000000"
+                   width="720"
+                   height="480"
+                   frameRate="24" />
 
             <Audio codec="amrnb"
                    bitRate="12200"
@@ -104,20 +104,6 @@
                    sampleRate="8000"
                    channels="1" />
 
-        </EncoderProfile>
-
-        <EncoderProfile quality="front" fileFormat="mp4" duration="60">
-            <Video codec="h264"
-                   bitRate="2000000"
-                   width="640"
-                   height="480"
-                   frameRate="24" />
-
-            <Audio codec="amrnb"
-                   bitRate="12200"
-                   sampleRate="8000"
-                   channels="1" />
-        
         </EncoderProfile>
 
         <ImageEncoding quality="90" />
