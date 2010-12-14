@@ -39,10 +39,10 @@ BOARD_EGL_CFG := device/htc/supersonic/egl.cfg
 
 BOARD_USE_HTC_USB_FUNCTION_SWITCH := true
 
-BOARD_BOOTIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x00280000)
-BOARD_RECOVERYIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x00500000)
+BOARD_BOOTIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x00340000)
+BOARD_RECOVERYIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x00480000)
 BOARD_SYSTEMIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x15e00000)
-BOARD_USERDATAIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x1aba0000)
+BOARD_USERDATAIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x1aa00000)
 # The size of a block that can be marked bad.
 BOARD_FLASH_BLOCK_SIZE := 131072
 
