@@ -31,7 +31,6 @@
 /system/bin/monitorMTD
 /system/bin/mscompress
 /system/bin/netsharing
-/system/bin/remount
 /system/bin/resize2fs_recvy
 /system/bin/sequansd
 /system/bin/ser2net

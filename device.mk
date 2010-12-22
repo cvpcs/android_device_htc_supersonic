@@ -9,11 +9,11 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 DEVICE_PACKAGE_OVERLAYS += device/htc/supersonic/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.build.changelist=218634 \
-	ro.product.version=3.26.651.6 \
+	ro.build.changelist=271968 \
+	ro.product.version=3.30.651.2 \
 	keyguard.no_require_sim=1 \
 	ro.com.google.clientidbase=android-sprint-us \
-	ro.com.google.gmsversion=2.2_r3 \
+	ro.com.google.gmsversion=2.2_r5 \
 	media.a1026.nsForVoiceRec=0 \
 	htc.audio.alt.enable=1 \
 	htc.audio.hac.enable=1 \
