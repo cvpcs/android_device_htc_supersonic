@@ -13,6 +13,8 @@ ro.com.google.locationfeatures = 1
 # appropriately. If this property is not defined, the default value is 160 dpi.
 ro.sf.lcd_density = 240
 # ro.sf.lcd_density = 160
+#0 - mdp composition, 1 - gpu composition
+ro.sf.hw=1
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
@@ -35,7 +37,7 @@ settings.display.brightness=143
 
 
 # This is a high density device with more memory, so larger vm heaps for it.
-dalvik.vm.heapsize=32m
+dalvik.vm.heapsize=24m
 
 #
 # This file describes the media capabilities and profiles
@@ -62,15 +64,15 @@ ro.media.enc.vid.m4v.fps       = 1,30
 # 
 # Increase SKIA decode memory capability for progressive jpg file
 #
-ro.media.dec.jpeg.memcap       = 20000000
+ro.media.dec.jpeg.memcap 	= 20000000
 
 # Release Bluetooth HW/SW information
-ro.bt.chipset  = Broadcom BCM4329-B1
-ro.bt.version  = Bluetooth 2.1 + EDR
-ro.bt.stack    = Broadcom BTL-A
-ro.bt.stack.version     = 2.0.50.032
+ro.bt.chipset	= Broadcom BCM4329-B1
+ro.bt.version	= Bluetooth 2.1 + EDR
+ro.bt.stack	= Broadcom BTL-A
+ro.bt.stack.version	= 2.0.50.032
 #0x10000010010100100000011 represent bt profile list
-ro.bt.profiles = 4270339
+ro.bt.profiles	= 4270339
 
 # Properties of BTLA stack
 service.brcm.bt.activation = 0
@@ -82,12 +84,16 @@ service.brcm.bt.avrcp_pass_thru = 0
 service.brcm.bt.avrcp_toggle = 1
 
 #Welly_Fang_01/05/2010
-ro.cdma.home.operator.numeric = 310120
 ro.cdma.home.operator.alpha = Sprint
+ro.cdma.home.operator.numeric = 310120
+#Welly_Fang_08/31/2010
+gsm.sim.operator.alpha = Sprint
+gsm.sim.operator.numeric = 310120
+gsm.sim.operator.iso-country = us
+gsm.operator.alpha = Sprint
+gsm.operator.numeric = 310120
+gsm.operator.iso-country = us
 
-gsm.sim.operator.numeric = 0
-gsm.sim.operator.alpha = 0
-gsm.sim.operator.iso-country = 0
 
 #Modify MTU from 1500 to 1472 on 3G network
 ro.ril.set.mtu1472 = 1
@@ -95,3 +101,4 @@ ro.ril.set.mtu1472 = 1
 # For FOTA setting (leave empty value to use default)
 ro.htc.checkin.url = http://andchin.htc.com/android/checkin
 ro.htc.checkin.crashurl = http://andchin.htc.com/android/crash
+

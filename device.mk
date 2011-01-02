@@ -9,11 +9,11 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 DEVICE_PACKAGE_OVERLAYS += device/htc/supersonic/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.build.changelist=271968 \
-	ro.product.version=3.30.651.2 \
+	ro.build.changelist=294884 \
+	ro.product.version=3.70.651.1 \
 	keyguard.no_require_sim=1 \
 	ro.com.google.clientidbase=android-sprint-us \
-	ro.com.google.gmsversion=2.2_r5 \
+	ro.com.google.gmsversion=2.2_r6 \
 	media.a1026.nsForVoiceRec=0 \
 	htc.audio.alt.enable=1 \
 	htc.audio.hac.enable=1 \
@@ -62,7 +62,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.media.cam.preview.fps=0 \
 	ro.media.dec.jpeg.memcap=20000000 \
 	ro.media.enc.jpeg.quality=95,85,70 \
-	ro.setupwizard.enterprise_mode=1
+	ro.setupwizard.enterprise_mode=1 \
+	ro.media.codec_priority_for_thumb=so
 # although these are in the leaked build.prop... no reason to set them as they're empty
 #	ro.product.ua= \
 #	ro.build.project= \
